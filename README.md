@@ -1,7 +1,7 @@
 # azure-healthcare-data-engineering
 End-to-end Healthcare Data Engineering project using Azure Synapse Analytics, ADLS Gen2, PySpark, Delta Lake, Serverless SQL and Power BI.
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the implementation of an end-to-end Healthcare Data Engineering solution using Microsoft Azure.
 
@@ -15,7 +15,7 @@ The solution follows the Medallion Architecture:
 
 The complete workflow is orchestrated with an Azure Synapse Pipeline and automatically executed using a scheduled trigger.
 
-## 🎯 Business Objective
+## Business Objective
 
 Healthcare organizations generate large volumes of operational data related to patients, hospital admissions, medical conditions, insurance providers, billing, and length of stay.
 
@@ -29,7 +29,7 @@ The goal of this project is therefore to build a reliable data pipeline that tra
 - What is the total billing amount?
 - How do admissions vary by hospital and insurance provider?
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -41,3 +41,11 @@ The goal of this project is therefore to build a reliable data pipeline that tra
 | Synapse Serverless SQL | SQL access to analytical data |
 | Power BI | Data modeling, KPIs and visualization |
 | GitHub | Source control and project documentation |
+
+##  Solution Architecture
+
+The project follows a Medallion Architecture to progressively transform raw healthcare data into reliable, business-ready analytical data.
+<img width="1076" height="506" alt="architecture final" src="https://github.com/user-attachments/assets/ceb0be29-4817-471f-8036-3baf6e4e694b" />
+
+
+
