@@ -46,6 +46,22 @@ The goal of this project is therefore to build a reliable data pipeline that tra
 
 The project follows a Medallion Architecture to progressively transform raw healthcare data into reliable, business-ready analytical data.
 <img width="1076" height="506" alt="architecture final" src="https://github.com/user-attachments/assets/ceb0be29-4817-471f-8036-3baf6e4e694b" />
+##  Data Quality Results
+
+Data quality checks were performed before the data was made available for analytical consumption.
+
+| Data Quality Check | Result / Action |
+|---|---|
+| Initial number of records | 55,173 |
+| Duplicate records | 67 duplicates detected |
+| Records after deduplication | 55,106 |
+| Missing values | Analyzed and handled during Silver processing |
+| Column names | Standardized |
+| Date consistency | Validated |
+| Output format | Delta |
+
+The data quality process ensures that the Gold layer is built from cleaned and validated data rather than directly from the raw source.
+
 
 
 
